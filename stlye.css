@@ -1,0 +1,45 @@
+:root {
+    --primary:#5f9341
+}
+body { 
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 500px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--primary);
+    margin-bottom: 4px;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid var(--primary);
+    font-weight: bold;
+}
+
+#delet-btn {
+     background: none;
+     color: var(--primary);
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a{
+    color: var(--primary);
+}
